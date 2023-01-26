@@ -150,7 +150,7 @@ void PFMProject0AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
     // the samples and the outer loop is handling the channels.
     // Alternatively, you can process the samples with the channels
     // interleaved by keeping the same state.
-    juce::Random r;
+    
 
     // Note: outer for loop added by maskatmusic, bad iteration order
 
@@ -163,7 +163,7 @@ void PFMProject0AudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, 
 
             if (shouldPlaySound) 
             {
-                buffer.setSample(channel, i, 0.2 * r.nextFloat() - 0.1);
+                buffer.setSample(channel, i, 0.6 * r.nextFloat() - 0.3);
             } 
             else
             {

@@ -5,7 +5,7 @@
     <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
-            numOutputs="1" isShell="0" hasARAExtension="0" uid="246006c0"/>
+            numOutputs="2" isShell="0" hasARAExtension="0" uid="246006c0"/>
     <STATE>0.</STATE>
     <LAYOUT>
       <INPUTS>
@@ -39,7 +39,7 @@
     <STATE>0.</STATE>
     <LAYOUT>
       <INPUTS>
-        <BUS index="0" layout="C"/>
+        <BUS index="0" layout="L R"/>
       </INPUTS>
       <OUTPUTS>
         <BUS index="0" layout="disabled"/>
@@ -64,7 +64,7 @@
   <FILTER uid="6" x="0.3587406793703397" y="0.5020161290322581" useARA="0">
     <PLUGIN name="PFMProject0" format="VST3" category="Fx" manufacturer="hilberturi"
             version="1.0.0" file="D:\PFM-C++\PFMProject0\Builds\VisualStudio2019\x64\Debug\VST3\PFMProject0.vst3"
-            uniqueId="ff9ba91a" isInstrument="0" fileTime="185d51ae967" infoUpdateTime="185d51c9cd4"
+            uniqueId="ff9ba91a" isInstrument="0" fileTime="185ef341dd0" infoUpdateTime="185ef34d191"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="e9594928"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
@@ -78,4 +78,5 @@
     </LAYOUT>
   </FILTER>
   <CONNECTION srcFilter="6" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="1" dstFilter="3" dstChannel="1"/>
 </FILTERGRAPH>
